@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="container">
+    <h1 id="header">Simulated Annealing</h1>
+    <!--            <form onsubmit="return init()">-->
+    <label for="cities">Cities:</label>
+    <input value=5 type="number" name="cities" id="cities"/><br>
+
+    <label for="temperature">Temperature:</label>
+    <input value=1000 type="number" name="temperature" id="temperature"/><br>
+
+    <label for="stemperature">Stop Temperature:</label>
+    <input value=500 type="number" name="stemperature" id="stemperature"/><br>
+
+    <label for="cooling">Cooling speed:</label>
+    <input value=1.00001 type="number" name="cooling" id="cooling"/><br>
+
+    <label for="epochs">Epochs:</label>
+    <input value=10 type="number" name="epochs" id="epochs"/><br>
+    <input onclick="init()" value="submit" type="submit" id="submit"><br>
+
+    <canvas id="canvas"></canvas>
+</div>
+</body>
+</html>

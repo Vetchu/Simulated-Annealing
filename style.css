@@ -1,0 +1,12 @@
+#container{
+    margin: 0 auto;
+    background-color: lightgray;
+    text-align: center;
+    min-height: 700px;
+    width: 80%;
+}
+
+#canvas{
+    background-color: white;
+    border: 2px solid red;
+}
